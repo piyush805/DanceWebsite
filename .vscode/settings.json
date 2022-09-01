@@ -1,0 +1,6 @@
+{
+    "editor.fontFamily": "'roboto mono','hack mono', 'ibm plex mono', 'fira mono', MonoLisa, 'Courier New', monospace",
+    "terminal.integrated.fontFamily": " 'Source Code Pro', 'Roboto Mono',MonoLisa, 'Courier New', monospace",
+    "terminal.integrated.fontSize": 14,
+    "editor.tabSize": 2
+}

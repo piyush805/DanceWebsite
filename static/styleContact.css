@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+
+}
+.container::before{
+  content:"";
+  top:0;
+  left: 0;
+  width: 100%;
+  background:center/cover no-repeat url('/static/bg2.png');
+  z-index: -1;
+  position: absolute;
+  height: 100vh;
+  opacity: 0.9;
+}
+.container{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+
+}
+h1{
+  text-align: center;
+  margin: 20px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  font-size: 2.5rem;
+  color:white;
+}
+
+.myForm{
+  display: Flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Segoe UI', cursive;
+
+}
+.myInput{
+  display: block;
+  width: 40%;
+  padding: 8px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: 2px solid grey;
+  border-radius: 8px;
+}
+.btn{
+  padding: 7px 12px;
+  font-size: 1.3rem;
+  border:2px solid black;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+  margin: 20px 0;
+  box-shadow: 3px 3px 3px grey;
+}
+.btn:hover{
+  color: yellow;
+  box-shadow: 2px 2px 2px gray;
+  text-shadow: 1px 1px 1px yellow;
+}
